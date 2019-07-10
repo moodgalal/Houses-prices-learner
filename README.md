@@ -58,3 +58,8 @@ The Boston housing data was collected in 1978 and each of the 506 entries repres
 * 1 data point has an 'RM' value of 8.78. This data point can be considered an outlier and has been removed.
 * The features 'RM', 'LSTAT', 'PTRATIO', and 'MEDV' are essential. The remaining non-relevant features have been excluded.
 * The feature 'MEDV' has been multiplicatively scaled to account for 35 years of market inflation.
+
+### notes
+* I gathered the data, cleaned it, preprocessed it, choosed the model based on several algorithms performance analytics (like learning curves..etc), then tuned the classifier using grid search and cross validation and obtained the best model possible.
+
+* The final f-beta score was approximately 75% and the accuracy score was 87%.
